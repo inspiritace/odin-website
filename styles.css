@@ -39,13 +39,13 @@ a {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 50px 100px;
 }
 
 .hero-main {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: baseline;
     flex-grow: 1;
 }
@@ -60,6 +60,12 @@ a {
 .hero-button {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero-text {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 40px;
 }
 
 .hero-button {
@@ -90,6 +96,8 @@ a {
 .info-container {
     display: flex;
     gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .box {
@@ -98,14 +106,22 @@ a {
     flex-direction: column;
     flex-shrink: 1;
     overflow: hidden;
-    padding: 20px;
     gap: 8px;
+}
+
+.info-image {
+    border-radius: 20px;
+    border-color: #3882F6;
+    border-style: solid;
 }
 
 /* QUOTE */
 
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 300px;
 }
 
 .quote-text {
@@ -113,7 +129,6 @@ a {
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;
-    text-align: center;
 }
 
 .quote-author {
